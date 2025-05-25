@@ -25,6 +25,9 @@ The Titanic dataset is a classic problem in machine learning, where we aim to pr
 - **Hyperparameter Tuning**: Used GridSearchCV to find the optimal regularization strength (`C` parameter).
 - **Model Evaluation**: Evaluated model performance using cross-validation and confusion matrices.
 
+## Results
+After applying feature engineering techniques, data preprocessing, and regularization (L1 penalty) using Logistic Regression, the model achieved a validation accuracy of 84% on the local train-validation split. Upon submitting predictions to the Kaggle Titanic competition, the model scored an accuracy of 0.77272 on the public leaderboard. This discrepancy highlights the importance of ensuring model generalization beyond local datasets. 
+
 ## Final Notes
 
 This project demonstrates how simple yet effective preprocessing and hyperparameter tuning can improve the performance of machine learning models. Further improvements could be made by experimenting with different algorithms (e.g., Random Forest, XGBoost) or by creating more advanced features.
